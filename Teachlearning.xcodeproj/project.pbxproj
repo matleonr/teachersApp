@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		974B120124C60A8B000BCB0C /* TeachersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974B120024C60A8B000BCB0C /* TeachersView.swift */; };
+		977E28EC24B76B8F001376BE /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E28EB24B76B8F001376BE /* LaunchScreenViewController.swift */; };
 		97C4895824B5037C0045C539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C4895724B5037C0045C539 /* AppDelegate.swift */; };
 		97C4895A24B5037C0045C539 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C4895924B5037C0045C539 /* SceneDelegate.swift */; };
 		97C4895C24B5037C0045C539 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C4895B24B5037C0045C539 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		974B120024C60A8B000BCB0C /* TeachersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachersView.swift; sourceTree = "<group>"; };
+		977E28EB24B76B8F001376BE /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		97C4895424B5037B0045C539 /* Teachlearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teachlearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C4895724B5037C0045C539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97C4895924B5037C0045C539 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		974B11FC24C5FFC2000BCB0C /* Default Config */ = {
+			isa = PBXGroup;
+			children = (
+				97C4895924B5037C0045C539 /* SceneDelegate.swift */,
+				97C4895724B5037C0045C539 /* AppDelegate.swift */,
+			);
+			path = "Default Config";
+			sourceTree = "<group>";
+		};
+		974B11FD24C5FFF9000BCB0C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				977E28EB24B76B8F001376BE /* LaunchScreenViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		974B11FE24C60006000BCB0C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				97C4896224B5037F0045C539 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		974B11FF24C60040000BCB0C /* SwiftUIFiles */ = {
+			isa = PBXGroup;
+			children = (
+				97C4895B24B5037C0045C539 /* ContentView.swift */,
+				974B120024C60A8B000BCB0C /* TeachersView.swift */,
+			);
+			path = SwiftUIFiles;
+			sourceTree = "<group>";
+		};
 		97C4894B24B5037B0045C539 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +94,13 @@
 		97C4895624B5037B0045C539 /* Teachlearning */ = {
 			isa = PBXGroup;
 			children = (
-				97C4895724B5037C0045C539 /* AppDelegate.swift */,
-				97C4895924B5037C0045C539 /* SceneDelegate.swift */,
-				97C4895B24B5037C0045C539 /* ContentView.swift */,
-				97C4895D24B5037F0045C539 /* Assets.xcassets */,
-				97C4896224B5037F0045C539 /* LaunchScreen.storyboard */,
 				97C4896524B5037F0045C539 /* Info.plist */,
+				974B11FF24C60040000BCB0C /* SwiftUIFiles */,
 				97C4895F24B5037F0045C539 /* Preview Content */,
+				974B11FE24C60006000BCB0C /* Storyboards */,
+				974B11FD24C5FFF9000BCB0C /* ViewControllers */,
+				974B11FC24C5FFC2000BCB0C /* Default Config */,
+				97C4895D24B5037F0045C539 /* Assets.xcassets */,
 			);
 			path = Teachlearning;
 			sourceTree = "<group>";
@@ -146,8 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				974B120124C60A8B000BCB0C /* TeachersView.swift in Sources */,
 				97C4895824B5037C0045C539 /* AppDelegate.swift in Sources */,
 				97C4895A24B5037C0045C539 /* SceneDelegate.swift in Sources */,
+				977E28EC24B76B8F001376BE /* LaunchScreenViewController.swift in Sources */,
 				97C4895C24B5037C0045C539 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
