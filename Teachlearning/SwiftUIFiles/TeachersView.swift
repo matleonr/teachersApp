@@ -13,7 +13,7 @@ struct TeachersView: View {
         NavigationView {
             List{
                 Text("first row")
-            }
+        }.navigationBarTitle(Text("Teachers"))
         }
         
     }
